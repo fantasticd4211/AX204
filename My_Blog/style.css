@@ -1,0 +1,37 @@
+h1	{
+	color: #66ff99;
+	text-align: center; 
+
+}
+p {
+	color:white;
+	text-shadow: 1px 1px black;
+	text-align: center;
+}
+.hobbiesList	{
+	color:white;
+	text-shadow: 1px 1px black;
+
+}
+
+.imageHobbies {
+
+}
+body{
+	background-image: url("http://www.twitrcovers.com/wp-content/uploads/2013/12/Abstract-Backgrounds-Textures-l.jpg");
+}
+img {
+	width: 400px;
+
+
+}
+
+#csgo:hover {
+	transform: scale(1.5);
+}
+#blackbelt:hover {
+	transform: scale(1.5);
+}
+#tv:hover {
+	transform: scale(1.5);
+}
