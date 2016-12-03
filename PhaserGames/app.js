@@ -157,7 +157,7 @@ function collectStar (player,star) {
 	score++;
 	//create replacement star
 	star = stars.create(Math.floor(Math.random()*750),0,'star');
-	star.body.gravity. = 200;
+	star.body.gravity.y = 200;
 	star.body.bounce.y = Math.random()*0.9;
 }
 //Define Looselife
