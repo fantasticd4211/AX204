@@ -117,7 +117,7 @@ function update(){
 		player.body.velocity.y = -300;
 	}
 	//Enemy AI
-	if (baddie.x > 759) {
+	if (baddie.x > 749) {
 		baddie.animations.play('left');
 		baddie.body.velocity.x = -120;
 	} else if (baddie.x < 405){
@@ -133,7 +133,7 @@ function update(){
 		baddie2.body.velocity.x = 80;
 	}
 	//Enemy AI
-	if (baddie3.x > 759 ) {
+	if (baddie3.x > 749 ) {
 		baddie3.animations.play('left');
 		baddie3.body.velocity.x = -200;
 	} else if (baddie3.x < 200){
