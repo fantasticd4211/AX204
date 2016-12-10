@@ -128,7 +128,7 @@ function update(){
 	if (baddie2.x > 200) {
 		baddie2.animations.play('left');
 		baddie2.body.velocity.x = -80;
-	} else if (baddie2.x < 20){
+	} else if (baddie2.x < 9){
 		baddie2.animations.play('right');
 		baddie2.body.velocity.x = 80;
 	}
@@ -136,7 +136,7 @@ function update(){
 	if (baddie3.x > 749 ) {
 		baddie3.animations.play('left');
 		baddie3.body.velocity.x = -200;
-	} else if (baddie3.x < 200){
+	} else if (baddie3.x < 199){
 		baddie3.animations.play('right');
 		baddie3.body.velocity.x = 200;
 	}
